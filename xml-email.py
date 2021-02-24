@@ -83,8 +83,8 @@ def send_email(email_recipient,
                email_message,
                attachment_location):
 
-    email_login = 'xml.ticonsultoria@gmail.com'
-    email_pass = '994422cn'
+    email_login = 'enviarxml@gmail.com'
+    email_pass = '123456abc'
 
     msg = MIMEMultipart()
     msg['From'] = email_login
